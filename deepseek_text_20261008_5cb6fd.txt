@@ -1,0 +1,40 @@
+kino-der-toten/
+├── package.json
+├── vite.config.js
+├── .gitignore
+├── README.md
+├── index.html
+├── style.css
+└── src/
+    ├── main.js
+    ├── core/
+    │   ├── Game.js
+    │   ├── InputManager.js
+    │   └── Physics.js
+    ├── player/
+    │   ├── Player.js
+    │   └── PlayerView.js
+    ├── weapons/
+    │   ├── WeaponData.js
+    │   ├── Weapon.js
+    │   └── WeaponManager.js
+    ├── zombies/
+    │   ├── Zombie.js
+    │   ├── ZombieAI.js
+    │   └── ZombieManager.js
+    ├── map/
+    │   └── KinoDerToten.js
+    ├── systems/
+    │   ├── RoundSystem.js
+    │   ├── InteractionSystem.js
+    │   ├── Barricades.js
+    │   └── PowerUps.js
+    ├── ui/
+    │   ├── HUD.js
+    │   └── Menu.js
+    ├── effects/
+    │   └── Effects.js
+    ├── audio/
+    │   └── AudioManager.js
+    └── save/
+        └── SaveManager.js
